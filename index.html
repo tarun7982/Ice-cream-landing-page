@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="./index.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <!-- NAV AFTER -->
+    <nav>
+        <h3>Cream Bud</h3>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about-page.html">About</a></li>
+            <li><a href="menu-page.html">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="nav-icon">
+            <input type="checkbox" id="bar">
+            <label class="menu-bar" for="bar">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </label>
+
+            <label class="nav-links" for="bar">
+                <a href="index.html" class="active">Home</a>
+                <a href="about-page.html">About</a>
+                <a href="menu-page.html">Menu</a>
+                <a href="contact.html">Contact</a>
+            </label>
+        </div>
+
+        <div class="account-cart">
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <section id="home" class="section home active">
+            
+        </section>
+
+        <div class="img-slider">
+            <img src="./assets/pista-icecream-mockup.png" alt="Ice Cream Image" class="ice-cup pista i1">
+            <img src="./assets/cookies-icecream-removebg-mockup.png" alt="Ice Cream Image" class="ice-cup cookies i2">
+            <img src="./assets/butter-icecream-mockup.png" alt="Ice Cream Image" class="ice-cup butter i3">
+            <img src="./assets/seedish-apple-icecream-mockup.png" alt="Ice Cream Image" class="ice-cup seedish i4">
+            <img src="./assets/cherry-chaco-icecream-mockup.png" alt="Ice Cream Image" class="ice-cup cherry i5">
+        </div>
+
+        <div class="upper">
+            <div class="content">
+                <div class="h1-p1">
+                <h1>Taste Joy in Every Bite</h1>
+                <p>Experience the perfect blend of creamy texture and vibrant flavors.</p>
+                </div>
+                <button class="btn">Order Now</button>
+                <a href="menu-page.html" class="btn">Explore Our Menu</a>
+            </div>
+        </div>
+
+        <div class="lower">
+                <div class="ratings">
+                    <div class="round-img">
+                        <div class="frame first">
+
+                        </div>
+
+                        <div class="frame second">
+
+                        </div>
+
+                        <div class="frame third">
+
+                        </div>
+                    </div>
+                    <div class="reviews">
+                        <p class="bold">10K+ Reviews</p>
+                        <p>Customer We Served</p>
+                    </div>
+                </div>
+
+                <div class="next-button">
+                    <div class="arrow-circle" id="prev">
+                        <i class="fa-solid fa-arrow-left-long"></i>
+                    </div>
+
+                    <div class="arrow-circle" id="next">
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </div>
+                </div>
+
+                <div class="social-media">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="./slider.js"></script>
+    <script src="./navbar.js"></script>
+</body>
+
+</html>

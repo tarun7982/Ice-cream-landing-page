@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>menu-page</title>
+</head>
+<body>
+    <nav class="menu-nav">
+        <h3>Cream Bud</h3>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-page.html">About</a></li>
+            <li><a href="menu-page.html" class="active">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="nav-icon">
+            <input type="checkbox" id="bar">
+            <label class="menu-bar" for="bar">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </label>
+
+            <label class="nav-links" for="bar">
+                <a href="index.html">Home</a>
+                <a href="about-page.html">About</a>
+                <a href="menu-page.html" class="active">Menu</a>
+                <a href="contact.html">Contact</a>
+            </label>
+        </div>
+
+        <div class="account-cart">
+            <i class="fa-solid fa-user"></i>
+
+            <div class="cart-box">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container menu-padding">
+        <section id="menu" class="menu">
+            <div class="slider-buttons">
+                <button id="prevBtn" class="btn-1"><i class="fa-solid fa-arrow-left-long"></i></button>
+            </div>
+
+            <div class="cards-container">
+                <div class="cards-track">
+                    <div class="card c-1">
+                        <img src="./assets/pista-icecream-mockup.png" alt="Ice Cream Image" class="menu-ice-1">
+                        <div class="menu-pricing">
+                            <h2>$12.00</h2>
+                            <p>Swedish style light ice cream</p>
+                        </div>
+                        <button class="btn buy-btn">ADD TO CART</button>
+                    </div>
+
+                    <div class="card c-2">
+                        <img src="./assets/butter-icecream-mockup.png" alt="Ice Cream Image" class="menu-ice-1">
+                        <div class="menu-pricing">
+                            <h2>$12.00</h2>
+                            <p>Swedish style light ice cream</p>
+                        </div>
+                        <button class="btn buy-btn">ADD TO CART</button>
+                    </div>
+
+                    <div class="card c-3">
+                        <img src="./assets/cookies-icecream-removebg-mockup.png" alt="Ice Cream Image" class="menu-ice-1">
+                        <div class="menu-pricing">
+                            <h2>$12.00</h2>
+                            <p>Swedish style light ice cream</p>
+                        </div>
+                        <button class="btn buy-btn">ADD TO CART</button>
+                    </div>
+
+                    <div class="card c-4">
+                        <img src="./assets/seedish-apple-icecream-mockup.png" alt="Ice Cream Image" class="menu-ice-1">
+                        <div class="menu-pricing">
+                            <h2>$12.00</h2>
+                            <p>Swedish style light ice cream</p>
+                        </div>
+                        <button class="btn buy-btn">ADD TO CART</button>
+                    </div>
+
+                    <div class="card c-5">
+                        <img src="./assets/cherry-chaco-icecream-mockup.png" alt="Ice Cream Image" class="menu-ice-1">
+                        <div class="menu-pricing">
+                            <h2>$12.00</h2>
+                            <p>Swedish style light ice cream</p>
+                        </div>
+                        <button class="btn buy-btn">ADD TO CART</button>
+                    </div>
+
+                    <div class="card c-6">
+                        <img src="./assets/pista-icecream-mockup.png" alt="Ice Cream Image" class="menu-ice-1">
+                        <div class="menu-pricing">
+                            <h2>$12.00</h2>
+                            <p>Swedish style light ice cream</p>
+                        </div>
+                        <button class="btn buy-btn">ADD TO CART</button>
+                    </div>
+
+                    <div class="card c-7">
+                        <img src="./assets/butter-icecream-mockup.png" alt="Ice Cream Image" class="menu-ice-1">
+                        <div class="menu-pricing">
+                            <h2>$12.00</h2>
+                            <p>Swedish style light ice cream</p>
+                        </div>
+                        <button class="btn buy-btn">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-button">
+                <button id="nextBtn" class="btn-1"><i class="fa-solid fa-arrow-right-long"></i></button>
+            </div>
+        </section>
+    </div>
+
+    <div class="head-content">
+        <h2 id="scramble-text">Explore Our Delicious Taste</h2>
+    </div>
+
+    <script src="menu.js"></script>
+</body> 
+</html>
